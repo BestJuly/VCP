@@ -52,8 +52,12 @@ R3D (VCP, reimplemented) | RGB | 24.2 | 41.2 | 50.3 | 60.2 | 74.8
 R3D (VCP, reimplemented) | Res | **26.3** | **44.8** | **55.0** | **65.4** | **78.7** 
 
 #### Recognition results
+The R3D here used 3D Convolution and ResNet blocks. However, the architecture is not ResNet-18-3D.
+
 Dataset | Tag | Modality | Acc
 ---|---|---|---
+UCF101 | R3D (scratch) | RGB | 57.2
+UCF101 | R3D (scartch) | Res | 63.0
 UCF101 | R3D (VCP, paper) | RGB | 68.1
 UCF101 | R3D (VCP, reimplemented) | RGB | 67.4
 UCF101 | R3D (VCP, reimplemented) | Res | **78.4**
