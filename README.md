@@ -26,12 +26,12 @@ python train_vcp.py
 
 #### Retrieve video clips
 ```python
-python retrieve_clips.py --ckpt=/path/to/self-supervised model
+python retrieve_clips.py --ckpt=/path/to/self-supervised_model
 ```
 
 #### Fine-tune models for video recognition
 ```python
-python ft_classify --ckpt=/path/to/self-supervised model
+python ft_classify --ckpt=/path/to/self-supervised_model
 ```
 If you want to train models from scratch, use
 ```python
@@ -40,7 +40,7 @@ python train_classify mode=train
 
 #### Test models for video recognition
 ```python
-python train_classify --ckpt=/path/to/fine-tuned model
+python train_classify --ckpt=/path/to/fine-tuned_model
 ```
 
 ### Results
@@ -49,14 +49,14 @@ Tag | Modality | top1 | top5 | top10 | top20 | top50
 ---|---|---|---|---|---|---
 R3D (VCP, paper) | RGB | 18.6 | 33.6 | 42.5| 53.5 | 68.1
 R3D (VCP, reimplemented) | RGB | 24.2 | 41.2 | 50.3 | 60.2 | 74.8 
-R3D (VCP, reimplemented) | Res | 26.3 | 44.8 | 55.0 | 65.4 | 78.7 
+R3D (VCP, reimplemented) | Res | **26.3** | **44.8** | **55.0** | **65.4** | **78.7** 
 
 #### Recognition results
 Dataset | Tag | Modality | Acc
 ---|---|---|---
 UCF101 | R3D (VCP, paper) | RGB | 68.1
 UCF101 | R3D (VCP, reimplemented) | RGB | 67.4
-UCF101 | R3D (VCP, reimplemented) | Res | 78.4
+UCF101 | R3D (VCP, reimplemented) | Res | **78.4**
 
 **Residual clips + 3D CNN** The residual clips with 3D CNNs are effective. More information about this part can be found in [Rethinking Motion Representation: Residual Frames with 3D ConvNets for Better Action Recognition](https://arxiv.org/abs/2001.05661) (previous but more detailed version) and [Motion Representation Using Residual Frames with 3D CNN](https://arxiv.org/abs/2006.13017) (short version with better results).
 
