@@ -1,4 +1,4 @@
-Unofficial PyTorch implement of [Video cloze procedure for self-supervised spatio-temporal learning](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LuoD.2527.pdf) [AAAI'20] paper
+Unofficial PyTorch implement of [Video cloze procedure for self-supervised spatio-temporal learning](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LuoD.2527.pdf) [AAAI'20]
 
 Codes are mainly based on [VCOP](https://github.com/xudejing/video-clip-order-prediction) [CVPR'19] 
 
