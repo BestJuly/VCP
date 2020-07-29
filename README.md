@@ -1,4 +1,4 @@
-Unofficial PyTorch implement of [Video cloze procedure for self-supervised spatio-temporal learning](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LuoD.2527.pdf) [AAAI'20]
+Unofficial PyTorch implement of [Video cloze procedure for self-supervised spatio-temporal learning](https://arxiv.org/abs/2001.00294) [AAAI'20]
 
 Codes are mainly based on [VCOP](https://github.com/xudejing/video-clip-order-prediction) [CVPR'19] 
 
@@ -60,7 +60,7 @@ UCF101 | R3D (scratch) | RGB | 57.2
 UCF101 | R3D (scartch) | Res | 63.0
 UCF101 | R3D (VCP, paper) | RGB | 68.1
 UCF101 | R3D (VCP, reimplemented) | RGB | 67.4
-UCF101 | R3D (VCP, reimplemented) | Res | **78.4**
+UCF101 | R3D (VCP, reimplemented) | Res | **71.3**
 
 **Residual clips + 3D CNN** The residual clips with 3D CNNs are effective. More information about this part can be found in [Rethinking Motion Representation: Residual Frames with 3D ConvNets for Better Action Recognition](https://arxiv.org/abs/2001.05661) (previous but more detailed version) and [Motion Representation Using Residual Frames with 3D CNN](https://arxiv.org/abs/2006.13017) (short version with better results).
 
